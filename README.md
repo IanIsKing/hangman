@@ -1,10 +1,43 @@
-# Getting Started with Create React App
+# Welcome to Hangman
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+    The classic word-guessing game where your objective is to guess a hidden word, letter by letter, before the hangman is completely drawn. Below are the rules and guidelines to help you get started:
 
-## Available Scripts
+# Objective
 
-In the project directory, you can run:
+    Your goal is to guess a word by suggesting letters within a certain number of guesses.
+
+# Gameplay
+
+Starting the Game:
+To begin, choose a difficulty level: Beginner, Intermediate, Advanced, or Expert. The difficulty level determines the length of the word you need to guess.
+Click on the 'Play' button to start the game.
+
+Choosing Letters:
+You will see a set of alphabet buttons on the screen. Each button represents a letter.
+Select a letter by clicking on the corresponding button. This counts as a guess.
+
+Correct Guesses:
+If the chosen letter is in the word, it will be revealed in its correct position(s) in the word.
+Letters can be used only once. After a letter is guessed, it becomes disabled.
+
+Wrong Guesses:
+If the chosen letter is not in the word, it counts as a wrong guess.
+Each wrong guess brings you closer to completing the hangman drawing, which signifies game over.
+
+Winning the Game:
+To win, you must guess all the letters in the word before the hangman is fully drawn.
+Successfully guessing the entire word without completing the hangman drawing results in a win.
+
+Losing the Game:
+The game is lost if the hangman is completely drawn before you can guess the word.
+You will be given a limited number of guesses, which varies based on the difficulty level.
+
+End of the Game:
+At the end of the game, whether you win or lose, you can choose to play again by selecting a difficulty level and clicking on the 'Play' button.
+
+# How to run the game on your machone.
+
+### `npm install to install the dependancies`
 
 ### `npm start`
 
