@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import Selection from "./selection";
 import MyModal from "./my_modal";
 import Picture from "./picture";
+import Help from "./help";
 import Button from "react-bootstrap/Button";
 
 function Hangman() {
@@ -148,6 +149,8 @@ function Hangman() {
           <MyModal showModal={true} message={"You Lost"} />
         </>
       )}
+
+      <Help />
     </div>
   );
 }
